@@ -5,6 +5,7 @@
   <remote  name="gitlab"   fetch="https://gitlab.freedesktop.org/" />
   <remote  name="glodroid" fetch="https://github.com/glodroid/" />
   <remote  name="megous"   fetch="https://megous.com/git/" />
+  <remote  name="roaddrum" fetch="https://github.com/Road-Drum/" />
 
   <extend-project name="platform/external/arm-trusted-firmware" revision="a127b99d5a063c798d1c6d2e1d4791a630f78355" />
   <remove-project name="platform/external/minigbm" />
@@ -12,7 +13,7 @@
   <remove-project name="platform/external/drm_hwcomposer" />
 
   <project path="device/glodroid"        remote="glodroid" name="glodroid_device.git"        revision="refs/tags/v0.7.0" />
-  <project path="prebuilts/applications" remote="glodroid" name="glodroid_external_apks.git" revision="refs/tags/apps-v0.6.0" />
+  <project path="prebuilts/applications" remote="roaddrum" name="glodroid_external_apks.git" revision="next-staging" />
 
   <project path="external/libcamera"       remote="glodroid" name="glodroid_forks.git" revision="refs/tags/libcamera-v0.7.0" />
   <project path="external/boost"           remote="glodroid" name="glodroid_forks.git" revision="refs/tags/boost-v0.7.0" />
